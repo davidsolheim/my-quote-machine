@@ -36,7 +36,7 @@ function App() {
       <p id="author">-{author}</p>
       <div id="button-container">
         <button id="new-quote" onClick={fetchQuote}>New Quote</button>
-        <a id="tweet-quote" href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(quote + " - " + author)}`} target="_blank">Tweet Quote</a>
+        <a id="tweet-quote" href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(quote + " - " + author)}`} target="_blank">Post Quote</a>
       </div>
     </div>
   );
