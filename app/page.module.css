@@ -1,0 +1,40 @@
+.quoteBox {
+  transition: color 1s ease;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  color: white;
+  transition: color 1s ease;
+  font-size: 1.5em;
+}
+
+.author {
+  color: white;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.newQuote,
+.tweetQuote {
+  margin: 0 0.5rem;
+  white-space: nowrap;
+}
+
+.tweetQuote {
+  color: white;
+  text-decoration: underline;
+}
+
